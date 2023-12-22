@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV - Alfonso Falcone</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -12,19 +12,18 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="styles.css">
-  
     <link
       rel="icon"
       href="https://cdn-icons-png.flaticon.com/128/909/909212.png"
       type="image/x-icon"
     />
-
-
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body id="cv">
-    <div class="row d-flex align-items-stretch justify-content-center mx-0 ">
-      <div  class="personal-data-column col-12 col-md-4 col-lg-3 bg-dark d-flex flex-column align-items-md-start justify-content-md-start"
+    <div class="row d-flex align-items-stretch justify-content-center mx-0">
+      <div
+        class="personal-data-column col-12 col-md-4 col-lg-3 col-xl-2 col-xxl-2 bg-dark d-flex flex-column align-items-md-start justify-content-md-start"
       >
         <div
           class="container-fluid text-center d-flex flex-column justify-content-center text-md-start text-xxl-center"
@@ -33,81 +32,103 @@
             Alfonso Falcone
           </h1>
           <div class="container personal-info my-5 text-white">
-            <h4>Personal Information</h4>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item bg-dark text-white">
-                Nationality: Italian
-              </li>
-              <li class="list-group-item bg-dark text-white">
-                Date of birth: 24/09/1996
-              </li>
-              <li class="list-group-item bg-dark text-white">
-                City: Angri, Salerno (Italy)
-              </li>
-              <li class="list-group-item bg-dark text-white">
-                <i class="fa-solid fa-phone"></i> (+39) 371 16 59 844
-              </li>
-              <li class="list-group-item bg-dark text-white">
-                <i class="fa-brands fa-linkedin"></i>
+            <h4>Info & Contacts</h4>
+            <div class="px-2 vstack gap-2 mt-4">
+              <div><i class="fa-solid fa-flag me-1"></i>Italian</div>
+              <div><i class="fa-solid fa-cake me-1"></i>24/09/1996</div>
+              <div>
+                <i class="fa-solid fa-house me-1"></i>Angri, Salerno (Italy)
+              </div>
+              <div><i class="fa-solid fa-phone me-1"></i>+39 371 16 59 844</div>
+              <div>
+                <i class="fa-brands fa-linkedin me-1"></i>
                 <a
                   href="https://www.linkedin.com/in/alfonso-falcone-621b151b2/"
                   aria-label="Visit Alfonso's Linkedin Profile"
                   class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
                   >Profile</a
                 >
-              </li>
-              <li class="list-group-item bg-dark text-white">
-                <i class="fa-brands fa-github"></i>
+              </div>
+              <div>
+                <i class="fa-brands fa-github me-1"></i>
                 <a
                   href="https://github.com/alfon96"
                   aria-label="Visit Alfonso's GitHub repositories"
                   class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
                   >Repositories</a
                 >
-              </li>
-            </ul>
+              </div>
+            </div>
           </div>
           <div class="education mb-5 container text-white">
             <h4>Education</h4>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item bg-dark text-white">
-                <strong>Master's Degree</strong><br />
+            <div class="px-2 vstack gap-2 mt-4">
+              <div>
+                <i class="fa-solid fa-graduation-cap me-1"> </i
+                ><strong>Master's Degree</strong><br />
                 Mechatronics Engineering<br />
                 Politecnico di Torino <br />2019 &minus; 2021
-              </li>
-              <li class="list-group-item bg-dark text-white">
+              </div>
+              <p>
+                <i class="fa-solid fa-globe-europe me-1"> </i>
                 <strong>Erasmus+</strong>
                 <br />
                 Physique<br />
                 UPJV - Amiens <br />2017 &minus; 2018
-              </li>
-              <li class="list-group-item bg-dark text-white">
+              </p>
+              <div>
+                <i class="fa-solid fa-graduation-cap me-1"> </i>
                 <strong>Bachelor's Degree</strong>
                 <br />
                 Automation Engineering <br />
                 Federico II - Napoli <br />2015 &minus; 2019
-              </li>
-            </ul>
+              </div>
+            </div>
           </div>
           <div class="languages container text-white">
             <h4>Languages</h4>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item bg-dark text-white">
-                Italian (Native)
-              </li>
-              <li class="list-group-item bg-dark text-white">English (C1)</li>
-              <li class="list-group-item bg-dark text-white">French (B2)</li>
-            </ul>
+            <div class="px-2 vstack gap-2 mt-4">
+              <div>
+                <img
+                  src="assets/flags/ita.svg"
+                  alt="Italian Flag"
+                  class="flag me-1"
+                />
+                Native
+              </div>
+              <div>
+                <img
+                  src="assets/flags/eng.svg"
+                  alt="Italian Flag"
+                  class="flag me-1"
+                />
+                C1
+              </div>
+              <div>
+                <img
+                  src="assets/flags/fra.svg"
+                  alt="Italian Flag"
+                  class="flag me-1"
+                />
+                B2
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-8 col-lg-9">
+      <div class="col-12 col-md-8 col-lg-9 col-xl-10 col-xxl-10">
         <!-- <span class="mt-5 d-block d-sm-none"></span> -->
-        <h1 class="display-4 py-3 text-center text-dark d-none d-md-block">
+        <h1
+          class="display-4 mb-xxl-4 py-3 text-center text-dark d-none d-md-block"
+        >
           Alfonso Falcone
         </h1>
-        <div class="container-fluid skills mt-5 mt-md-0">
-          <h4 class="text-center text-md-start">Skills</h4>
+        <div
+          class="container-fluid row mb-2 mt-xl-3 justify-content-xxl-center align-items-center gy-3"
+        >
+          <h4 class="text-center text-md-start text-xxl-center mb-xxl-4">
+            Skills
+          </h4>
           <table class="table table-hover table-sm mt-3">
             <thead>
               <tr>
@@ -157,78 +178,81 @@
             </tbody>
           </table>
         </div>
-        <div class="container-fluid projects py-4">
-          <h4 class="text-center text-md-start">Projects</h4>
-          <div>
-            <div class="row mt-4 mb-2">
-              <div class="col-3">
-                <h6>
-                  AskEnzo App
 
-                  <span class="badge bg-info badge">
-                    <a
-                      href="https://github.com/alfon96/askenzo_app"
-                      aria-label="Visit the AskEnzo Repository on Github"
-                      class="text-white link-underline link-underline-opacity-0"
-                      >Code</a
-                    ></span
-                  >
+        <div
+          class="container-fluid row mt-3 mt-xl-5 justify-content-xxl-center align-items-center gy-3"
+        >
+          <h4 class="col-12 text-center text-md-start text-xxl-center mb-xxl-4">
+            Projects
+          </h4>
+          <div class="col-3">
+            <h6>
+              AskEnzo App
 
-                  
-                    <a
-                      href="https://askenzo-presentation.netlify.app/"
-                      aria-label="Visit the AskEnzo Website"
-                      class="text-white link-underline link-underline-opacity-0 "
-                      ><span class="badge bg-success  ">Website</a
-                    >
-                </h6>
-              </div>
-              <div class="col-9">
-                <p>
-                  <span class="text-muted font-italic">Tech:</span> Flutter,
-                  FastAPI, Docker, Amazon ECS, Azure Repos, SQL Amazon RDS,
-                  Amazon S3
-                </p>
-                <p>
-                  <span class="text-muted font-italic">Details:</span> A suite
-                  comprising an app for Brindisi tourists, a supporting API, and
-                  a web admin interface.
-                </p>
-              </div>
-            </div>
+              <span class="badge bg-info badge">
+                <a
+                  href="https://github.com/alfon96/askenzo_app"
+                  aria-label="Visit the AskEnzo Repository on Github"
+                  class="text-white link-underline link-underline-opacity-0"
+                  >Code</a
+                ></span
+              >
 
-            <div class="row">
-              <div class="col-3">
-                <h6>
-                  ArtAffinity API
-                  <span class="badge bg-info badge">
-                    <a
-                      href="https://github.com/alfon96/artworks_recommendation_APIs"
-                      aria-label="Visit the Artwork Recommendation API Repository on Github"
-                      class="text-white link-underline link-underline-opacity-0"
-                      >Code</a
-                    ></span
-                  >
-                </h6>
-              </div>
-              <div class="col-9">
-                <p>
-                  <span class="text-muted font-italic">Tech:</span> Python,
-                  FastAPI, Docker, Amazon ECS, Azure Repos
-                </p>
-                <p>
-                  <span class="text-muted font-italic">Details:</span> An API
-                  that recommends artwork in Naples based on user preferences,
-                  weather, and location.
-                </p>
-              </div>
-            </div>
+              <a
+                href="https://askenzo-presentation.netlify.app/"
+                aria-label="Visit the AskEnzo Website"
+                class="link-underline link-underline-opacity-0"
+              >
+                <span class="badge bg-success">Website</span>
+              </a>
+            </h6>
+          </div>
+          <div class="col-9">
+            <p>
+              <span class="text-muted font-italic">Tech:</span> Flutter,
+              FastAPI, Docker, Amazon ECS, Azure Repos, SQL Amazon RDS, Amazon
+              S3
+            </p>
+            <p>
+              <span class="text-muted font-italic">Details:</span> A suite
+              comprising an app for Brindisi tourists, a supporting API, and a
+              web admin interface.
+            </p>
+          </div>
+          <div class="col-3">
+            <h6>
+              ArtAffinity API
+              <span class="badge bg-info badge">
+                <a
+                  href="https://github.com/alfon96/artworks_recommendation_APIs"
+                  aria-label="Visit the Artwork Recommendation API Repository on Github"
+                  class="text-white link-underline link-underline-opacity-0"
+                  >Code</a
+                ></span
+              >
+            </h6>
+          </div>
+          <div class="col-9">
+            <p>
+              <span class="text-muted font-italic">Tech:</span> Python, FastAPI,
+              Docker, Amazon ECS, Azure Repos
+            </p>
+            <p>
+              <span class="text-muted font-italic">Details:</span> An API that
+              recommends artwork in Naples based on user preferences, weather,
+              and location.
+            </p>
           </div>
         </div>
-        <div class="container-fluid working-experience">
-          <h4 class="text-center text-md-start">Working Experience</h4>
-          <div class="container-fluid">
-            <div class="row">
+
+        <div
+          class="container-fluid row mt-5 mb-2 justify-content-xxl-center align-items-center gy-3"
+        >
+          <div class="container-fluid overflow-hidden">
+            <div class="row gy-2 gy-xxl-4 align-items-center">
+              <h4 class="text-center text-md-start text-xxl-center mb-xxl-2">
+                Working Experience
+              </h4>
               <div class="col-2">
                 <h6 class="mb-1">Junior Developer</h6>
                 <p class="text-muted">Onsite</p>
@@ -256,7 +280,7 @@
 
               <div class="col-2">
                 <h6 class="mb-1">Software Engineer</h6>
-                <p >Txt Group</p>
+                <p>Txt Group</p>
                 <p class="text-muted">Full Remote</p>
                 <p>2022 &minus; 2023</p>
               </div>
@@ -283,6 +307,5 @@
         </div>
       </div>
     </div>
-   
   </body>
 </html>
